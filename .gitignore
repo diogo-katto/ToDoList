@@ -1,0 +1,26 @@
+# Build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / Visual Studio
+.vscode/
+.vs/
+
+# App settings (evita vazar connection string)
+appsettings.Development.json
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# EF Core
+Migrations/*.csproj
